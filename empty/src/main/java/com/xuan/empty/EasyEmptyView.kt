@@ -35,7 +35,6 @@ class EasyEmptyView : Button {
         typedArray.recycle()
 
         setEmptyIcon(mEmptyIcon)
-        text = "这里是文字区域，请设置你要显示"
     }
 
     fun setEmptyIcon(@DrawableRes icon: Int) {
