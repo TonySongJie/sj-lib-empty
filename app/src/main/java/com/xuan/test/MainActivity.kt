@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         eevMainTest.addOnClickListener(View.OnClickListener {
             Toast.makeText(this, "点击了空白页面", Toast.LENGTH_SHORT).show()
+            eevMainTest.setEmptyView()
         })
     }
 }
