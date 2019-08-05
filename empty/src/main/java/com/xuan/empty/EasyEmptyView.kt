@@ -35,6 +35,7 @@ class EasyEmptyView : Button {
         typedArray.recycle()
 
         setEmptyIcon(mEmptyIcon)
+        text = text ?: "获取数据失败，请点此重试！"
     }
 
     fun setEmptyIcon(@DrawableRes icon: Int) {
